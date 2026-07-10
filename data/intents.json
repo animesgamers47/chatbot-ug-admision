@@ -1,0 +1,425 @@
+{
+  "intents": [
+    {
+      "tag": "saludo",
+      "patterns": [
+        "hola",
+        "holaa",
+        "buenos dias",
+        "buenas tardes",
+        "buenas noches",
+        "que tal",
+        "hey",
+        "hola que tal",
+        "hola a todos",
+        "buen dia",
+        "saludos",
+        "que onda",
+        "buenas"
+      ],
+      "responses": [
+        "¡Hola! Soy el asistente virtual de Admisión y Nivelación de la Universidad de Guayaquil. ¿En qué puedo ayudarte?",
+        "¡Buen día! Estoy aquí para resolver tus dudas sobre admisión y nivelación en la UG. ¿Cómo puedo ayudarte?",
+        "¡Hola! Bienvenido al chatbot de admisiones UG. Pregúntame lo que necesites."
+      ]
+    },
+    {
+      "tag": "registro_nacional",
+      "patterns": [
+        "que es el registro nacional",
+        "como me registro en el minedec",
+        "cuando es el registro nacional",
+        "fechas registro nacional 2026",
+        "que necesito para el registro nacional",
+        "donde hago el registro nacional",
+        "registro nacional senescyt",
+        "que es la plataforma del minedec",
+        "primer paso admision ug",
+        "registro obligatorio minedec"
+      ],
+      "responses": [
+        "El Registro Nacional es la primera etapa obligatoria del proceso de admisión. Se realiza del 2 al 6 de junio de 2026 en la plataforma del MINEDEC. Si no realizas este registro, no podrás continuar con las siguientes fases del proceso."
+      ]
+    },
+    {
+      "tag": "inscripcion_postulacion",
+      "patterns": [
+        "como me inscribo en la ug",
+        "cuando es la inscripcion",
+        "fechas inscripcion 2026",
+        "que necesito para postular",
+        "crear cuenta plataforma ug",
+        "como creo mi cuenta en la ug",
+        "seleccion de carreras ug",
+        "postulacion ug",
+        "inscripcion ug 2026",
+        "pasos para inscribirme"
+      ],
+      "responses": [
+        "La inscripción y postulación se realiza del 13 al 20 de julio de 2026. Debes crear tu cuenta en la plataforma institucional de la UG (registroadmision.ug.edu.ec), completar tus datos personales y seleccionar hasta 2 carreras de tu interés dentro del mismo campo de conocimiento."
+      ]
+    },
+    {
+      "tag": "cronograma_evaluaciones",
+      "patterns": [
+        "cuando se publican las evaluaciones",
+        "fechas de evaluacion ug",
+        "cronograma evaluaciones 2026",
+        "horario de evaluaciones",
+        "publicacion cronograma evaluaciones",
+        "cuando sabre mi fecha de examen",
+        "cuando publican las fechas de examen"
+      ],
+      "responses": [
+        "El cronograma de evaluaciones se publicará el 17 de agosto de 2026 en los canales oficiales de la UG. Allí encontrarás las fechas, horarios y sedes asignadas para rendir tu evaluación."
+      ]
+    },
+    {
+      "tag": "evaluacion_admision",
+      "patterns": [
+        "como es el examen de admision",
+        "cuando es la evaluacion",
+        "evaluacion admision ug",
+        "que temas vienen en el examen",
+        "como se califica el examen",
+        "puntaje de evaluacion",
+        "evaluacion por bloques",
+        "que es la evaluacion general",
+        "examen de ingreso ug",
+        "cuando rindo el examen"
+      ],
+      "responses": [
+        "La evaluación se aplica del 1 al 25 de septiembre de 2026. Evalúa capacidades y competencias según el bloque de conocimientos de la carrera seleccionada. Se realiza a través de la plataforma Moodle. El puntaje de postulación se compone de: 50% evaluación + 50% antecedentes académicos, más puntaje adicional por acción afirmativa si corresponde."
+      ]
+    },
+    {
+      "tag": "asignacion_cupos",
+      "patterns": [
+        "como asignan los cupos",
+        "cuando asignan los cupos",
+        "asignacion de cupos ug",
+        "cupos disponibles ug",
+        "como se asignan los cupos",
+        "puntaje de corte ug",
+        "que es el puntaje de corte",
+        "segmentos de asignacion",
+        "politica de cuotas ug",
+        "cupos por merito academico",
+        "como eligen los cupos",
+        "que criterios usan para asignar cupos",
+        "quien decide los cupos",
+        "reparten los cupos"
+      ],
+      "responses": [
+        "La asignación de cupos se realiza automáticamente considerando: puntaje de postulación, disponibilidad de cupos y elección de carrera. Se asigna por segmentos: 5% acción afirmativa, 10% mayor vulnerabilidad, 20% mérito académico, 35% bachilleres del último régimen, 20% población general. En caso de empate se desempata por nota MINEDUC, luego por acción afirmativa y finalmente por tiempo de evaluación."
+      ]
+    },
+    {
+      "tag": "aceptacion_cupo",
+      "patterns": [
+        "como acepto mi cupo",
+        "cuando es la aceptacion de cupo",
+        "primera aceptacion de cupo",
+        "segunda postulacion ug",
+        "tercera postulacion ug",
+        "no me asignaron cupo que hago",
+        "perdi mi cupo como recupero",
+        "aceptar cupo minedec",
+        "no obtuve cupo",
+        "no me dieron cupo",
+        "me quede sin cupo",
+        "no tengo cupo"
+      ],
+      "responses": [
+        "La aceptación de cupo es voluntaria y se realiza en el sistema del MINEDEC. Hay hasta 3 rondas de postulación y aceptación: 1ra aceptación (cupo asignado), 2da postulación (para quienes no obtuvieron cupo), y 3ra postulación (última oportunidad). Si no aceptas el cupo en el plazo establecido, pierdes la asignación."
+      ]
+    },
+    {
+      "tag": "requisitos_nivelacion",
+      "patterns": [
+        "que necesito para la nivelacion",
+        "requisitos nivelacion ug",
+        "requisitos para nivelacion",
+        "requisitos pa la nivelacion",
+        "requsitos nivelacion",
+        "requsitos pa la nivelacion",
+        "documentos para nivelacion",
+        "que papeles necesito para nivelacion",
+        "requisitos para matricularse en nivelacion",
+        "foto carnet nivelacion",
+        "certificado de votacion nivelacion",
+        "titulo de bachiller nivelacion",
+        "carnet conadis nivelacion",
+        "que documentos piden para nivelacion",
+        "cuales son los requisitos de nivelacion",
+        "papeles necesarios nivelacion ug",
+        "que documentos debo presentar para el curso de nivelacion",
+        "que documentos necesito para el curso de nivelacion"
+      ],
+      "responses": [
+        "Los requisitos para la matrícula en el Curso de Nivelación son: 1) Foto tamaño carné a color (JPG, 200-400 kb, fondo blanco), 2) Cédula de ciudadanía o pasaporte, 3) Certificado de votación (si aplica), 4) Título de bachiller o equivalente legal, 5) Certificado de registro del título de bachiller descargado del Ministerio de Educación, 6) Carné del CONADIS (si aplica). Los documentos deben ser escaneados a color en PDF, máximo 350 KB cada uno."
+      ]
+    },
+    {
+      "tag": "matricula_nivelacion",
+      "patterns": [
+        "como me matriculo en nivelacion",
+        "matricula nivelacion ug",
+        "cuando es la matricula nivelacion",
+        "donde me matriculo nivelacion",
+        "pasos para matricularse nivelacion",
+        "costo de la nivelacion",
+        "cuanto cuesta la nivelacion",
+        "valor curso nivelacion",
+        "matricula online nivelacion",
+        "siug nivelacion",
+        "que necesito para matricularme en nivelacion",
+        "pasos para la matricula nivelacion"
+      ],
+      "responses": [
+        "La matrícula en el Curso de Nivelación se realiza online a través del Sistema Integrado de la Universidad de Guayaquil (SIUG). Debes adjuntar los documentos escaneados en PDF (máximo 350 KB cada uno), completar la encuesta socioeconómica y de estilos de aprendizaje, y seleccionar el paralelo. La primera vez es gratis, pero si reprobas el curso, el valor del curso completo es de $180 (tres asignaturas a $60 cada una). Si ya tienes cuenta SIUG de procesos anteriores, usa la misma."
+      ]
+    },
+    {
+      "tag": "evaluacion_nivelacion",
+      "patterns": [
+        "como evaluan la nivelacion",
+        "nota minima nivelacion",
+        "como se aprueba la nivelacion",
+        "que nota necesito para aprobar",
+        "asistencia minima nivelacion",
+        "ponderacion nivelacion",
+        "como es la evaluacion nivelacion",
+        "requisitos aprobar nivelacion",
+        "gestion practica y autonoma",
+        "calificacion minima nivelacion",
+        "que nota minima necesito para nivelacion",
+        "promedio minimo nivelacion"
+      ],
+      "responses": [
+        "Para aprobar el Curso de Nivelación debes: cursar la totalidad de las asignaturas, cumplir mínimo 70% de asistencia y alcanzar un promedio mínimo de 7/10 en cada asignatura. La evaluación se compone de: 60% Gestión formativa, práctica y autónoma de los aprendizajes, y 40% Acreditación y validación de los aprendizajes."
+      ]
+    },
+    {
+      "tag": "plataformas_virtuales",
+      "patterns": [
+        "que plataformas usa la ug",
+        "plataformas ug",
+        "plataformas virtuales ug",
+        "plataformas de la ug",
+        "plataformas que usa la ug",
+        "campus virtual ug",
+        "moodle ug",
+        "zoom ug",
+        "clases virtuales nivelacion",
+        "como accedo al campus virtual",
+        "donde son las clases virtuales",
+        "siug sistema integrado",
+        "aula virtual ug",
+        "campus nivelacion moodle"
+      ],
+      "responses": [
+        "La UG utiliza las siguientes plataformas virtuales: 1) Campus Virtual Moodle (campusnivelacion.ug.edu.ec) para actividades formativas y materiales educativos. El acceso se habilita al inicio de clases, usuario y contraseña inicial: número de cédula. 2) Aula Virtual Zoom para clases sincrónicas, accesible desde el SIUG (ruta: Académico > Estudiante > Horarios > Clases Virtuales). Las sesiones quedan grabadas en Moodle."
+      ]
+    },
+    {
+      "tag": "oferta_academica",
+      "patterns": [
+        "que carreras ofrece la ug",
+        "carreras ug",
+        "oferta academica ug",
+        "cuantas carreras tiene la ug",
+        "facultades ug",
+        "carreras universidad de guayaquil",
+        "que puedo estudiar en la ug",
+        "quiero estudiar en la ug",
+        "quiero estudiar una carrera",
+        "que carreras hay",
+        "carreras disponibles ug",
+        "bloques de conocimiento ug",
+        "modalidades de estudio ug",
+        "sedes ug",
+        "ke careras ug",
+        "que carreras tienen"
+      ],
+      "responses": [
+        "La UG ofrece 56 carreras distribuidas en 6 bloques de conocimiento: 1) Ciencia, Tecnología e Ingeniería, 2) Ciencias de la Bioindustria y Recursos Naturales, 3) Diseño y Creatividad, 4) Ciencias Sociales, Educación y Cultura, 5) Negocios y Economía Global, 6) Ciencias de la Salud Humana. Las modalidades son: Presencial, Híbrida y En línea. Cuenta con sedes en Guayaquil y Vinces. Podés ver la oferta completa en admision.ug.edu.ec/oferta-ug/"
+      ]
+    },
+    {
+      "tag": "costos_aranceles",
+      "patterns": [
+        "cuanto cuesta la matricula",
+        "aranceles ug",
+        "cuanto cuesta estudiar en la ug",
+        "valor del credito ug",
+        "costos matricula ug",
+        "cuanto pagan los estudiantes",
+        "arancel por credito",
+        "tabla de aranceles ug",
+        "costo por materia ug",
+        "valores ug"
+      ],
+      "responses": [
+        "Los valores dependen del tipo de institución de procedencia y del índice de recargo. Para colegios públicos: $1.84 a $4.41 por crédito. Para colegios privados: $2.57 a $5.14 por crédito. Para segunda carrera: $5.51 a $8.27 por crédito. La matrícula no excede el 10% del arancel total. Los estudiantes regulares que no pierden la gratuidad no pagan primera matrícula. El Curso de Nivelación tiene un valor fijo de $180 ($60 por asignatura)."
+      ]
+    },
+    {
+      "tag": "gratuidad_ug",
+      "patterns": [
+        "la universidad es gratis",
+        "es gratis estudiar en la ug",
+        "la ug es gratuita",
+        "es gratuita la universidad",
+        "la primera vez es gratis",
+        "estudiar en la ug es gratis",
+        "cuanto cuesta la universidad",
+        "la ensenanza es gratuita",
+        "pagar aranceles ug",
+        "la ug cobra"
+      ],
+      "responses": [
+        "En Ecuador, la educación pública es gratuita solo la primera vez que cursas una carrera. Si es tu primera vez en una institución pública, no pagas aranceles por la carrera. Sin embargo, si ya estudiaste antes (segunda o tercera carrera), debes pagar los aranceles correspondientes según tu procedencia (colegio público o privado)."
+      ]
+    },
+    {
+      "tag": "perdida_gratuidad",
+      "patterns": [
+        "como pierdo la gratuidad",
+        "gratuidad ug",
+        "perdida de gratuidad",
+        "cuando se pierde la gratuidad",
+        "segunda matricula paga",
+        "tercera matricula ug",
+        "descuento discapacidad ug",
+        "grupos vulnerables ug",
+        "reembolso arancel ug",
+        "perdi la gratuidad que hago"
+      ],
+      "responses": [
+        "La gratuidad se pierde parcial o totalmente al reprobar asignaturas. Tipos: 1ra ocasión (aún con gratuidad), 2da ocasión (pérdida parcial, pagas arancel), 3ra ocasión (pérdida definitiva, requiere aprobación del Consejo Superior). Descuentos: 50% para personas con discapacidad, capacidades especiales o adultos mayores. El reembolso proporcional aplica solo por retiro justificado de carrera completa. La orden de pago vence a los 7 días laborables previos al inicio de exámenes del primer parcial."
+      ]
+    },
+    {
+      "tag": "tipos_matricula",
+      "patterns": [
+        "tipos de matricula ug",
+        "matricula ordinaria",
+        "matricula extraordinaria",
+        "matricula especial ug",
+        "como es la matricula ordinaria",
+        "que es matricula extraordinaria",
+        "prorroga de matricula",
+        "anulacion de matricula",
+        "retiro de asignaturas ug",
+        "cuando me puedo matricular"
+      ],
+      "responses": [
+        "Existen 3 tipos de matrícula: 1) Ordinaria: dentro del calendario académico, antes del inicio de clases. 2) Extraordinaria: hasta 15 días después de la ordinaria. 3) Especial: hasta 15 días después de la extraordinaria, solo para casos fortuitos o fuerza mayor, aprobada por el Consejo Superior. También puedes retirarte de asignaturas hasta 15 días después del inicio de clases. La anulación de matrícula procede por información falsa o adulterada."
+      ]
+    },
+    {
+      "tag": "transferencia_estudiantes",
+      "patterns": [
+        "como me cambio de universidad",
+        "transferencia ug",
+        "cambio de facultad ug",
+        "homologacion ug",
+        "cambio de carrera ug",
+        "venir de otra universidad a ug",
+        "solicitar pase de universidad",
+        "reconocimiento de materias ug",
+        "cambio interno ug",
+        "estudiante de otra universidad",
+        "quiero homologar materias",
+        "reconozcan mis materias de otra universidad",
+        "homologo materias de otra carrera",
+        "quiero transferirme a la ug",
+        "solicitar transferencia a la ug"
+      ],
+      "responses": [
+        "Para transferencia desde otra universidad: solicitud al Decano, récord académico original, programas de estudio (syllabus), malla curricular, copia de cédula y votación, certificado de no impedimento de tercera matrícula, certificado de gratuidad. Para cambio de facultad dentro de la UG: solicitud al Director de Carrera y récord académico. Ambos trámites se realizan a través del SIUG según el calendario académico. Valor del pase: $70."
+      ]
+    },
+    {
+      "tag": "requisitos_extranjeros",
+      "patterns": [
+        "puedo entrar soy extranjero",
+        "requisitos extranjeros ug",
+        "estudiantes extranjeros ug",
+        "titulo apostillado ug",
+        "pasaporte ug extranjeros",
+        "visado estudios ug",
+        "refugiados estudios ug",
+        "extranjeros en la ug",
+        "soy de otro pais puedo estudiar en la ug",
+        "soy extranjero que necesito para la ug",
+        "soy de colombia puedo estudiar en la ug",
+        "soy peruano puedo entrar a la ug"
+      ],
+      "responses": [
+        "Los postulantes extranjeros deben cumplir los mismos requisitos que los nacionales, más: 1) Título de bachiller apostillado o refrendado en el Ministerio de Educación y en el Ministerio de Relaciones Exteriores, 2) Copia notariada del visado por estudios. Los postulantes en condición de refugio o asilo tienen un trato favorable con plazo extendido hasta el siguiente período académico."
+      ]
+    },
+    {
+      "tag": "politicas_cupos",
+      "patterns": [
+        "accion afirmativa ug",
+        "politica de cuotas ug",
+        "cupos para discapacitados ug",
+        "merito academico ug",
+        "bachilleres ultimo regimen ug",
+        "poblacion general ug",
+        "cupos vulnerables ug",
+        "que son las politicas de accion afirmativa",
+        "grupos excluidos ug",
+        "como se distribuyen los cupos ug",
+        "hay cupos para personas con discapacidad",
+        "cupos para personas con discapacidad"
+      ],
+      "responses": [
+        "Las políticas de acción afirmativa de la UG garantizan: 5% de cupos para grupos históricamente excluidos (pueblos, nacionalidades, discapacitados), 10% para mayor vulnerabilidad socioeconómica, 20% para mérito académico (cuadro de honor), 10% para bachilleres de pueblos y nacionalidades del último régimen, 35% para demás bachilleres del último régimen, 20% para población general. Se otorgan puntos adicionales a postulantes que califiquen para acción afirmativa."
+      ]
+    },
+    {
+      "tag": "contacto",
+      "patterns": [
+        "donde queda la ug",
+        "telefono ug",
+        "como contacto a la ug",
+        "direccion ug",
+        "redes sociales ug",
+        "facebook admision ug",
+        "instagram ug",
+        "linktree ug",
+        "youtube ug admision",
+        "oficinas ug",
+        "donde esta ubicada la ug",
+        "ubicacion ug",
+        "donde queda la facultad"
+      ],
+      "responses": [
+        "Puedes contactar a la UG por los siguientes canales: Dirección: Cdla. Universitaria, Av. Delta s/n y Av. Kennedy, Guayaquil. Teléfono: (04) 2284505. Redes sociales: Facebook (Admisión UG), Instagram (@admisionug), Twitter (@admisionug), YouTube (Coordinación de Admisión y Nivelación). Linktree oficial: linktr.ee/admisionug. También puedes visitar el portal oficial: admision.ug.edu.ec."
+      ]
+    },
+    {
+      "tag": "despedida",
+      "patterns": [
+        "gracias",
+        "muchas gracias",
+        "chao",
+        "adios",
+        "hasta luego",
+        "nos vemos",
+        "gracias por tu ayuda",
+        "bye",
+        "que tengas buen dia"
+      ],
+      "responses": [
+        "¡De nada! Si tienes más preguntas, no dudes en consultarme. ¡Mucho éxito en tu proceso de admisión a la UG!",
+        "¡Gracias a ti! Recuerda revisar siempre los canales oficiales de admisión UG. ¡Suerte!",
+        "¡Hasta luego! Estaré aquí cuando necesites ayuda con tus trámites en la UG. ¡Éxitos!"
+      ]
+    }
+  ]
+}
