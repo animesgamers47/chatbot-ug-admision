@@ -43,6 +43,11 @@ pip install -r requirements.txt
 | `python src/agent.py` | Chat por consola (escribe "salir" para terminar) |
 | `python src/evaluate.py` | Evaluación del agente (accuracy, F1, matriz de confusión) |
 
+## Despliegue en línea
+
+- **URL:** https://chatbot-ug-admision.onrender.com
+- La app se despliega automáticamente desde la rama `v2-chatbot-ug` (plan free: duerme tras ~15 min de inactividad y despierta en 30–50 s).
+
 ## Fuentes de datos reales
 
 - [Portal Oficial de Admisión UG](https://admision.ug.edu.ec/admision/)
@@ -61,9 +66,10 @@ pip install -r requirements.txt
 - **RF-05:** Extracción de entidades con regex (fechas, cédulas, carreras, montos) y enriquecimiento de la respuesta con las entidades detectadas
 - **RF-06:** Umbral de confianza (0.40) **+ margen mínimo** (0.05) entre el mejor y el segundo intent para rechazar consultas fuera de tema
 - **RF-07:** Intent `fallback` con patrones negativos (OOD) para aprender qué NO es tema del bot
-- **RF-08:** Interfaz web con Gradio (quick replies, badge de intención/confianza, limpiar conversación)
+- **RF-08:** Interfaz web con Gradio (preguntas sugeridas aleatorias, feedback 👍/👎 a `data/feedback.csv`, persistencia del historial y diseño responsive)
 - **RF-09:** Consola ejecutable: `python src/agent.py`
 - **RF-10:** Evaluación con 83 consultas (incluye reformulaciones y casos adversariales)
+- **RF-11:** Despliegue en Render (https://chatbot-ug-admision.onrender.com) con auto-deploy
 
 ## Resultados de evaluación
 
