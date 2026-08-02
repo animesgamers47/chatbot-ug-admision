@@ -1,6 +1,41 @@
 {
   "intents": [
     {
+      "tag": "fallback",
+      "patterns": [
+        "que pelicula me recomiendas",
+        "cuanto cuesta el pasaje de bus",
+        "cuanto cuesta un taxi para la ug",
+        "donde queda el mcdonalds",
+        "que noticias hay hoy",
+        "noticias de la universidad de guayaquil hoy",
+        "cuentame un chiste",
+        "como esta el clima en guayaquil",
+        "prestame dinero",
+        "donde comprar zapatos",
+        "que partido juega hoy",
+        "receta de arroz con pollo",
+        "como llego al aeropuerto",
+        "cuanto cuesta una pizza",
+        "que hora es",
+        "habla ingles",
+        "quien es tu jefe",
+        "quiero ver futbol",
+        "donde esta el mejor restaurante",
+        "contrasena de mi correo",
+        "como llego a la playa",
+        "donde esta la playa",
+        "como llego al centro comercial",
+        "donde queda el centro comercial",
+        "como llego a mi casa"
+      ],
+      "responses": [
+        "Lo siento, no entendí tu consulta. ¿Puedes reformularla? Puedo ayudarte con temas de admisión, nivelación, requisitos, costos y más sobre la UG.",
+        "Esa pregunta no es de mi área. Soy el asistente de Admisión y Nivelación de la UG: pregúntame por inscripciones, evaluaciones, cupos, nivelación o costos.",
+        "No tengo información sobre eso. Prueba preguntándome por requisitos de admisión, fechas, carreras o trámites de la Universidad de Guayaquil."
+      ]
+    },
+    {
       "tag": "saludo",
       "patterns": [
         "hola",
@@ -35,7 +70,10 @@
         "registro nacional senescyt",
         "que es la plataforma del minedec",
         "primer paso admision ug",
-        "registro obligatorio minedec"
+        "registro obligatorio minedec",
+        "como registro mis notas del bachillerato",
+        "registro de notas del bachillerato",
+        "donde registro mis notas"
       ],
       "responses": [
         "El Registro Nacional es la primera etapa obligatoria del proceso de admisión. Se realiza del 2 al 6 de junio de 2026 en la plataforma del MINEDEC. Si no realizas este registro, no podrás continuar con las siguientes fases del proceso."
@@ -53,7 +91,11 @@
         "seleccion de carreras ug",
         "postulacion ug",
         "inscripcion ug 2026",
-        "pasos para inscribirme"
+        "pasos para inscribirme",
+        "cuando abren las inscripciones",
+        "como me postulo a la ug",
+        "me quiero postular a la ug",
+        "donde hago la inscripcion y postulacion"
       ],
       "responses": [
         "La inscripción y postulación se realiza del 13 al 20 de julio de 2026. Debes crear tu cuenta en la plataforma institucional de la UG (registroadmision.ug.edu.ec), completar tus datos personales y seleccionar hasta 2 carreras de tu interés dentro del mismo campo de conocimiento."
@@ -68,7 +110,16 @@
         "horario de evaluaciones",
         "publicacion cronograma evaluaciones",
         "cuando sabre mi fecha de examen",
-        "cuando publican las fechas de examen"
+        "cuando publican las fechas de examen",
+        "donde veo el cronograma de evaluaciones",
+        "cuando publican el cronograma",
+        "fechas del examen de ingreso",
+        "cuando es el examen de ingreso",
+        "cuando es la fecha del examen de admision",
+        "que dia rindo el examen de ingreso",
+        "que dia es mi examen de ingreso",
+        "donde descargo la credencial del examen",
+        "credencial para el examen de ingreso"
       ],
       "responses": [
         "El cronograma de evaluaciones se publicará el 17 de agosto de 2026 en los canales oficiales de la UG. Allí encontrarás las fechas, horarios y sedes asignadas para rendir tu evaluación."
@@ -86,7 +137,13 @@
         "evaluacion por bloques",
         "que es la evaluacion general",
         "examen de ingreso ug",
-        "cuando rindo el examen"
+        "cuando rindo el examen",
+        "en que consiste la prueba",
+        "que es la prueba de admision",
+        "de que trata la prueba de ingreso",
+        "que preguntas trae la prueba",
+        "prueba de ingreso a la ug",
+        "como es la prueba de ingreso"
       ],
       "responses": [
         "La evaluación se aplica del 1 al 25 de septiembre de 2026. Evalúa capacidades y competencias según el bloque de conocimientos de la carrera seleccionada. Se realiza a través de la plataforma Moodle. El puntaje de postulación se compone de: 50% evaluación + 50% antecedentes académicos, más puntaje adicional por acción afirmativa si corresponde."
@@ -102,13 +159,18 @@
         "como se asignan los cupos",
         "puntaje de corte ug",
         "que es el puntaje de corte",
-        "segmentos de asignacion",
-        "politica de cuotas ug",
-        "cupos por merito academico",
         "como eligen los cupos",
         "que criterios usan para asignar cupos",
         "quien decide los cupos",
-        "reparten los cupos"
+        "reparten los cupos",
+        "en que se basa la asignacion de cupos",
+        "como funciona la asignacion de cupos",
+        "que nota necesito para entrar",
+        "puntaje minimo para obtener cupo",
+        "criterios de asignacion de cupos",
+        "que promedio necesito para la carrera",
+        "promedio minimo para obtener cupo",
+        "que promedio necesito para obtener cupo"
       ],
       "responses": [
         "La asignación de cupos se realiza automáticamente considerando: puntaje de postulación, disponibilidad de cupos y elección de carrera. Se asigna por segmentos: 5% acción afirmativa, 10% mayor vulnerabilidad, 20% mérito académico, 35% bachilleres del último régimen, 20% población general. En caso de empate se desempata por nota MINEDUC, luego por acción afirmativa y finalmente por tiempo de evaluación."
@@ -128,7 +190,19 @@
         "no obtuve cupo",
         "no me dieron cupo",
         "me quede sin cupo",
-        "no tengo cupo"
+        "no tengo cupo",
+        "no sali seleccionado que hago",
+        "como saber si me dieron cupo",
+        "como aceptar el cupo asignado",
+        "cuando acepto el cupo asignado",
+        "que hago si no me asignaron cupo",
+        "si pierdo un cupo que pasa",
+        "si pierdo el cupo",
+        "mi nombre sale en la lista de admitidos",
+        "sali en la lista de admitidos",
+        "como veo la lista de admitidos",
+        "estoy en la lista de admitidos",
+        "lista de admitidos ug"
       ],
       "responses": [
         "La aceptación de cupo es voluntaria y se realiza en el sistema del MINEDEC. Hay hasta 3 rondas de postulación y aceptación: 1ra aceptación (cupo asignado), 2da postulación (para quienes no obtuvieron cupo), y 3ra postulación (última oportunidad). Si no aceptas el cupo en el plazo establecido, pierdes la asignación."
@@ -154,7 +228,10 @@
         "cuales son los requisitos de nivelacion",
         "papeles necesarios nivelacion ug",
         "que documentos debo presentar para el curso de nivelacion",
-        "que documentos necesito para el curso de nivelacion"
+        "que documentos necesito para el curso de nivelacion",
+        "que llevo para la nivelacion",
+        "que debo llevar para la nivelacion",
+        "que papeles presento en nivelacion"
       ],
       "responses": [
         "Los requisitos para la matrícula en el Curso de Nivelación son: 1) Foto tamaño carné a color (JPG, 200-400 kb, fondo blanco), 2) Cédula de ciudadanía o pasaporte, 3) Certificado de votación (si aplica), 4) Título de bachiller o equivalente legal, 5) Certificado de registro del título de bachiller descargado del Ministerio de Educación, 6) Carné del CONADIS (si aplica). Los documentos deben ser escaneados a color en PDF, máximo 350 KB cada uno."
@@ -174,7 +251,24 @@
         "matricula online nivelacion",
         "siug nivelacion",
         "que necesito para matricularme en nivelacion",
-        "pasos para la matricula nivelacion"
+        "pasos para la matricula nivelacion",
+        "cuanto pago por el curso de nivelacion",
+        "cuanto pago por la nivelacion",
+        "donde me matriculo en nivelacion",
+        "como me matriculo en el curso de nivelacion",
+        "cuanto cobran por la nivelacion",
+        "cuanto vale la nivelacion",
+        "cuanto vale cada materia de nivelacion",
+        "precio por materia de nivelacion",
+        "como me inscribo en el curso de nivelacion",
+        "inscripcion al curso de nivelacion",
+        "quiero inscribirme en nivelacion",
+        "quiero saber las fechas de la nivelacion",
+        "fechas de la nivelacion",
+        "cuando inicia la nivelacion",
+        "cuando comienza la nivelacion",
+        "cuanto es el valor de la nivelacion",
+        "cual es el valor de la nivelacion"
       ],
       "responses": [
         "La matrícula en el Curso de Nivelación se realiza online a través del Sistema Integrado de la Universidad de Guayaquil (SIUG). Debes adjuntar los documentos escaneados en PDF (máximo 350 KB cada uno), completar la encuesta socioeconómica y de estilos de aprendizaje, y seleccionar el paralelo. La primera vez es gratis, pero si reprobas el curso, el valor del curso completo es de $180 (tres asignaturas a $60 cada una). Si ya tienes cuenta SIUG de procesos anteriores, usa la misma."
@@ -194,7 +288,16 @@
         "gestion practica y autonoma",
         "calificacion minima nivelacion",
         "que nota minima necesito para nivelacion",
-        "promedio minimo nivelacion"
+        "promedio minimo nivelacion",
+        "como apruebo nivelacion",
+        "como me evaluan en nivelacion",
+        "que nota necesito para pasar nivelacion",
+        "como veo mi nota de la nivelacion",
+        "donde veo mi nota de nivelacion",
+        "como consulto mis notas de nivelacion",
+        "quiero saber el horario de clases",
+        "cual es el horario de clases",
+        "horario de clases nivelacion"
       ],
       "responses": [
         "Para aprobar el Curso de Nivelación debes: cursar la totalidad de las asignaturas, cumplir mínimo 70% de asistencia y alcanzar un promedio mínimo de 7/10 en cada asignatura. La evaluación se compone de: 60% Gestión formativa, práctica y autónoma de los aprendizajes, y 40% Acreditación y validación de los aprendizajes."
@@ -216,7 +319,15 @@
         "donde son las clases virtuales",
         "siug sistema integrado",
         "aula virtual ug",
-        "campus nivelacion moodle"
+        "campus nivelacion moodle",
+        "donde esta el siug",
+        "como entro al siug",
+        "como entro al moodle de la universidad",
+        "como entro a moodle",
+        "como entro al campus virtual",
+        "la nivelacion es presencial o virtual",
+        "hay nivelacion presencial o virtual",
+        "nivelacion presencial o en linea"
       ],
       "responses": [
         "La UG utiliza las siguientes plataformas virtuales: 1) Campus Virtual Moodle (campusnivelacion.ug.edu.ec) para actividades formativas y materiales educativos. El acceso se habilita al inicio de clases, usuario y contraseña inicial: número de cédula. 2) Aula Virtual Zoom para clases sincrónicas, accesible desde el SIUG (ruta: Académico > Estudiante > Horarios > Clases Virtuales). Las sesiones quedan grabadas en Moodle."
@@ -240,7 +351,14 @@
         "modalidades de estudio ug",
         "sedes ug",
         "ke careras ug",
-        "que carreras tienen"
+        "que carreras tienen",
+        "que carreras de salud hay",
+        "carreras de ciencias de la salud",
+        "carreras de medicina y salud",
+        "carreras de ingenieria",
+        "que carreras de ingenieria hay",
+        "que carreras de medicina hay en la ug",
+        "carreras de medicina en la ug"
       ],
       "responses": [
         "La UG ofrece 56 carreras distribuidas en 6 bloques de conocimiento: 1) Ciencia, Tecnología e Ingeniería, 2) Ciencias de la Bioindustria y Recursos Naturales, 3) Diseño y Creatividad, 4) Ciencias Sociales, Educación y Cultura, 5) Negocios y Economía Global, 6) Ciencias de la Salud Humana. Las modalidades son: Presencial, Híbrida y En línea. Cuenta con sedes en Guayaquil y Vinces. Podés ver la oferta completa en admision.ug.edu.ec/oferta-ug/"
@@ -258,7 +376,29 @@
         "arancel por credito",
         "tabla de aranceles ug",
         "costo por materia ug",
-        "valores ug"
+        "valores ug",
+        "precio de la matricula",
+        "cuanto vale la matricula",
+        "valor de la matricula",
+        "cuanto debo pagar por la carrera",
+        "cuanto cuesta la carrera",
+        "cuanto es el arancel por materia",
+        "cuanto es el arancel de la matricula",
+        "cuanto es la pension de la carrera",
+        "pension universitaria ug",
+        "valor de la pension",
+        "precio por credito",
+        "cuanto es el precio por credito",
+        "cuanto cuesta la carrera de medicina",
+        "cuanto cuesta la carrera de derecho",
+        "cuanto cuesta la carrera de ingenieria",
+        "cuanto cuesta estudiar una carrera",
+        "cuanto cuesta una carrera en la ug",
+        "cuando pagan los que trabajan",
+        "pago de los estudiantes que trabajan",
+        "los que trabajan pagan aranceles",
+        "quiero saber cuando pagan los estudiantes",
+        "cuando pagan los estudiantes"
       ],
       "responses": [
         "Los valores dependen del tipo de institución de procedencia y del índice de recargo. Para colegios públicos: $1.84 a $4.41 por crédito. Para colegios privados: $2.57 a $5.14 por crédito. Para segunda carrera: $5.51 a $8.27 por crédito. La matrícula no excede el 10% del arancel total. Los estudiantes regulares que no pierden la gratuidad no pagan primera matrícula. El Curso de Nivelación tiene un valor fijo de $180 ($60 por asignatura)."
@@ -276,7 +416,19 @@
         "cuanto cuesta la universidad",
         "la ensenanza es gratuita",
         "pagar aranceles ug",
-        "la ug cobra"
+        "la ug cobra",
+        "la ug es gratis",
+        "la educacion publica es gratuita",
+        "pago por mi primera carrera",
+        "cuanto cuesta la inscripcion",
+        "la inscripcion es gratis",
+        "la postulacion es gratis",
+        "la inscripcion tiene costo",
+        "quienes pueden acceder a la gratuidad",
+        "como accedo a la gratuidad",
+        "quien tiene derecho a la gratuidad",
+        "requisitos para tener gratuidad",
+        "a quienes les dan la gratuidad"
       ],
       "responses": [
         "En Ecuador, la educación pública es gratuita solo la primera vez que cursas una carrera. Si es tu primera vez en una institución pública, no pagas aranceles por la carrera. Sin embargo, si ya estudiaste antes (segunda o tercera carrera), debes pagar los aranceles correspondientes según tu procedencia (colegio público o privado)."
@@ -291,13 +443,63 @@
         "cuando se pierde la gratuidad",
         "segunda matricula paga",
         "tercera matricula ug",
-        "descuento discapacidad ug",
-        "grupos vulnerables ug",
-        "reembolso arancel ug",
-        "perdi la gratuidad que hago"
+        "perdi la gratuidad que hago",
+        "si repruebo tengo que pagar",
+        "reprobe una materia pierdo la gratuidad",
+        "que pasa si repruebo materias",
+        "por reprobar pierdo la gratuidad",
+        "perdi la gratuidad como la recupero",
+        "reprobe la nivelacion que pasa",
+        "reprobe el curso de nivelacion"
       ],
       "responses": [
-        "La gratuidad se pierde parcial o totalmente al reprobar asignaturas. Tipos: 1ra ocasión (aún con gratuidad), 2da ocasión (pérdida parcial, pagas arancel), 3ra ocasión (pérdida definitiva, requiere aprobación del Consejo Superior). Descuentos: 50% para personas con discapacidad, capacidades especiales o adultos mayores. El reembolso proporcional aplica solo por retiro justificado de carrera completa. La orden de pago vence a los 7 días laborables previos al inicio de exámenes del primer parcial."
+        "La gratuidad se pierde parcial o totalmente al reprobar asignaturas. Tipos: 1ra ocasión (aún con gratuidad), 2da ocasión (pérdida parcial, pagas el arancel), 3ra ocasión (pérdida definitiva, requiere aprobación del Consejo Superior). Si pierdes la gratuidad y tomas el curso de nivelación por segunda ocasión, pagas únicamente el rubro de las asignaturas reprobadas. La orden de pago vence a los 7 días laborables previos al inicio de exámenes del primer parcial."
+      ]
+    },
+    {
+      "tag": "descuentos_vulnerables",
+      "patterns": [
+        "descuento discapacidad ug",
+        "descuento para personas con discapacidad",
+        "adultos mayores descuento ug",
+        "capacidades especiales ug",
+        "descuento por discapacidad en la ug",
+        "pago menos por discapacidad",
+        "personas con discapacidad pagan menos",
+        "descuento adultos mayores aranceles",
+        "cuanto pagan las personas con discapacidad",
+        "tengo carnet conadis tengo descuento",
+        "hay becas para estudiantes",
+        "la ug da becas",
+        "como obtengo una beca",
+        "becas para estudiar en la ug"
+      ],
+      "responses": [
+        "Las personas con discapacidad, capacidades especiales o adultos mayores, con la condición debidamente certificada, tienen un descuento del 50% sobre el valor a pagar por aranceles y matrículas (aplica también si pierden la gratuidad). En el curso de nivelación por segunda ocasión, quienes pierden la gratuidad solo pagan el rubro de las asignaturas reprobadas. Recuerda presentar el carné del CONADIS o la certificación correspondiente al momento de tu matrícula."
+      ]
+    },
+    {
+      "tag": "reembolso_aranceles",
+      "patterns": [
+        "reembolso arancel ug",
+        "como recupero mi dinero de la matricula",
+        "devolucion de aranceles",
+        "reembolso de la matricula",
+        "me devuelven el dinero si me retiro",
+        "devolucion de valores pagados",
+        "reembolso por retiro de carrera",
+        "me devuelven la plata si me salgo",
+        "como pido mi reembolso",
+        "como solicito el reembolso",
+        "quiero pedir el reembolso de la matricula",
+        "como pido la devolucion de mi dinero",
+        "devolucion de mi dinero",
+        "puedo retirarme de la nivelacion",
+        "como me retiro de la nivelacion",
+        "me retiro de la nivelacion"
+      ],
+      "responses": [
+        "El reembolso de aranceles es proporcional y aplica ÚNICAMENTE por retiro justificado de la carrera completa durante todo un periodo académico, solicitado y autorizado desde el sistema académico de la UG. NO hay reembolso por anulación de matrícula ni por retiro de asignaturas. La solicitud debe realizarse en máximo un mes desde la autorización del retiro y se gestiona a través de las Unidades Académicas."
       ]
     },
     {
@@ -312,7 +514,11 @@
         "prorroga de matricula",
         "anulacion de matricula",
         "retiro de asignaturas ug",
-        "cuando me puedo matricular"
+        "cuando me puedo matricular",
+        "matricula tardia",
+        "matricula atrasada",
+        "que pasa si me matriculo tarde",
+        "matricula fuera de fecha"
       ],
       "responses": [
         "Existen 3 tipos de matrícula: 1) Ordinaria: dentro del calendario académico, antes del inicio de clases. 2) Extraordinaria: hasta 15 días después de la ordinaria. 3) Especial: hasta 15 días después de la extraordinaria, solo para casos fortuitos o fuerza mayor, aprobada por el Consejo Superior. También puedes retirarte de asignaturas hasta 15 días después del inicio de clases. La anulación de matrícula procede por información falsa o adulterada."
@@ -355,7 +561,17 @@
         "soy de otro pais puedo estudiar en la ug",
         "soy extranjero que necesito para la ug",
         "soy de colombia puedo estudiar en la ug",
-        "soy peruano puedo entrar a la ug"
+        "soy peruano puedo entrar a la ug",
+        "soy venezolano puedo estudiar en la ug",
+        "soy venezolano puedo entrar",
+        "pueden entrar extranjeros a la ug",
+        "puedo estudiar siendo extranjero",
+        "soy extranjero puedo estudiar",
+        "soy extranjero quiero estudiar en la ug",
+        "me aceptan si vengo de otro pais",
+        "vengo de otro pais puedo entrar",
+        "soy de otro pais me aceptan",
+        "puedo entrar si vengo de otro pais"
       ],
       "responses": [
         "Los postulantes extranjeros deben cumplir los mismos requisitos que los nacionales, más: 1) Título de bachiller apostillado o refrendado en el Ministerio de Educación y en el Ministerio de Relaciones Exteriores, 2) Copia notariada del visado por estudios. Los postulantes en condición de refugio o asilo tienen un trato favorable con plazo extendido hasta el siguiente período académico."
@@ -375,7 +591,13 @@
         "grupos excluidos ug",
         "como se distribuyen los cupos ug",
         "hay cupos para personas con discapacidad",
-        "cupos para personas con discapacidad"
+        "cupos para personas con discapacidad",
+        "segmentos de asignacion",
+        "cupos por merito academico",
+        "que porcentaje de cupos es para vulnerables",
+        "porcentaje de cupos por accion afirmativa",
+        "cupos por discapacidad",
+        "politica de inclusion en la ug"
       ],
       "responses": [
         "Las políticas de acción afirmativa de la UG garantizan: 5% de cupos para grupos históricamente excluidos (pueblos, nacionalidades, discapacitados), 10% para mayor vulnerabilidad socioeconómica, 20% para mérito académico (cuadro de honor), 10% para bachilleres de pueblos y nacionalidades del último régimen, 35% para demás bachilleres del último régimen, 20% para población general. Se otorgan puntos adicionales a postulantes que califiquen para acción afirmativa."
@@ -396,7 +618,18 @@
         "oficinas ug",
         "donde esta ubicada la ug",
         "ubicacion ug",
-        "donde queda la facultad"
+        "donde queda la facultad",
+        "como llego a la facultad",
+        "como llego a la facultad de medicina",
+        "donde queda la facultad de medicina",
+        "ubicacion de la facultad",
+        "cual es el numero de la universidad",
+        "numero de telefono de la ug",
+        "cual es el telefono de la ug",
+        "como llamo a la universidad",
+        "a que correo escribo para preguntas",
+        "cual es el correo de la ug",
+        "correo electronico de la ug"
       ],
       "responses": [
         "Puedes contactar a la UG por los siguientes canales: Dirección: Cdla. Universitaria, Av. Delta s/n y Av. Kennedy, Guayaquil. Teléfono: (04) 2284505. Redes sociales: Facebook (Admisión UG), Instagram (@admisionug), Twitter (@admisionug), YouTube (Coordinación de Admisión y Nivelación). Linktree oficial: linktr.ee/admisionug. También puedes visitar el portal oficial: admision.ug.edu.ec."
@@ -413,7 +646,8 @@
         "nos vemos",
         "gracias por tu ayuda",
         "bye",
-        "que tengas buen dia"
+        "cuidate mucho",
+        "hasta la proxima"
       ],
       "responses": [
         "¡De nada! Si tienes más preguntas, no dudes en consultarme. ¡Mucho éxito en tu proceso de admisión a la UG!",
