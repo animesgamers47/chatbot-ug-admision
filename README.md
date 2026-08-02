@@ -15,7 +15,7 @@ Agente conversacional basado en técnicas clásicas de PLN (TF-IDF + similitud c
 ```
 📁 ProyectoPLN/
 ├── 📁 data/
-│   └── intents.json              → 24 intents con utterances y respuestas
+│   └── intents.json              → 25 intents con utterances y respuestas
 ├── 📁 src/
 │   ├── __init__.py
 │   ├── preprocess.py             → Limpieza, tokenización, stopwords, stemming
@@ -59,7 +59,7 @@ pip install -r requirements.txt
 
 ## Funcionalidades
 
-- **RF-01:** 24 intents con utterances y respuestas en `data/intents.json`
+- **RF-01:** 25 intents con utterances y respuestas en `data/intents.json`
 - **RF-02:** Preprocesamiento con stopwords (NLTK) y stemming (Snowball)
 - **RF-03:** Representación TF-IDF con unigramas y bigramas
 - **RF-04:** Detección de intenciones por similitud coseno con **max-pooling por intent** (el mejor puntaje de cada intent, no de cada utterance)

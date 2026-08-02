@@ -263,12 +263,10 @@
         "como me inscribo en el curso de nivelacion",
         "inscripcion al curso de nivelacion",
         "quiero inscribirme en nivelacion",
-        "quiero saber las fechas de la nivelacion",
-        "fechas de la nivelacion",
-        "cuando inicia la nivelacion",
-        "cuando comienza la nivelacion",
         "cuanto es el valor de la nivelacion",
-        "cual es el valor de la nivelacion"
+        "cual es el valor de la nivelacion",
+        "quiero saber las fechas de la nivelacion",
+        "fechas de la nivelacion"
       ],
       "responses": [
         "La matrícula en el Curso de Nivelación se realiza online a través del Sistema Integrado de la Universidad de Guayaquil (SIUG). Debes adjuntar los documentos escaneados en PDF (máximo 350 KB cada uno), completar la encuesta socioeconómica y de estilos de aprendizaje, y seleccionar el paralelo. La primera vez es gratis, pero si reprobas el curso, el valor del curso completo es de $180 (tres asignaturas a $60 cada una). Si ya tienes cuenta SIUG de procesos anteriores, usa la misma."
@@ -653,6 +651,25 @@
         "¡De nada! Si tienes más preguntas, no dudes en consultarme. ¡Mucho éxito en tu proceso de admisión a la UG!",
         "¡Gracias a ti! Recuerda revisar siempre los canales oficiales de admisión UG. ¡Suerte!",
         "¡Hasta luego! Estaré aquí cuando necesites ayuda con tus trámites en la UG. ¡Éxitos!"
+      ]
+    },
+    {
+      "tag": "inicio_nivelacion",
+      "patterns": [
+        "cuando inicia la nivelacion",
+        "cuando comienza la nivelacion",
+        "cuando empieza la nivelacion",
+        "cuando arranca la nivelacion",
+        "fecha de inicio de la nivelacion",
+        "en que fecha inicia la nivelacion",
+        "cuando inician las clases de nivelacion",
+        "cuando empiezan las clases de nivelacion",
+        "cual es la fecha de inicio del curso de nivelacion",
+        "cuando empieza el curso de nivelacion",
+        "cuando comienzan las clases de la nivelacion"
+      ],
+      "responses": [
+        "El inicio del Curso de Nivelación se establece según el calendario académico vigente de cada ciclo. Las fechas exactas de inicio se publican en los canales oficiales de la UG; consulta el cronograma académico vigente en admision.ug.edu.ec/nivelacion/ para conocer el inicio del ciclo en curso."
       ]
     }
   ]
