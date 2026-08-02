@@ -266,9 +266,14 @@ CSS = """
   .ug-hero img.logo { height: 52px; }
   .ug-hero h1 { font-size: 17px; }
   .ug-links a { margin: 0 8px; }
+  #layout-row { flex-direction: column !important; }
   #chips-col { flex-direction: row; flex-wrap: wrap; gap: 6px; }
   #chips-col button { flex: 1 1 45%; }
   .chips-title { width: 100%; }
+  #input-row { flex-direction: column !important; }
+  #btn-col { flex-direction: row !important; }
+  #btn-col button { flex: 1 1 48%; }
+  .chatbot { height: 55vh !important; }
 }
 """
 
@@ -377,24 +382,9 @@ footer_html = '''
 with gr.Blocks(title='Chatbot UG - Admisión y Nivelación') as demo:
     gr.HTML(header_html)
 
-    chatbot = gr.Chatbot(
-        value=[],
-        height=440,
-        layout='bubble',
-        watermark='Pregúntame sobre requisitos, fechas, carreras, costos, nivelación…',
-        avatar_images=(USER_AVATAR_PATH, BOT_AVATAR_PATH),
-        render_markdown=True,
-        sanitize_html=True,
-        line_breaks=True,
-        group_consecutive_messages=True,
-        feedback_options=('Like', 'Dislike'),
-        elem_classes='chatbot',
-    )
-    estado = gr.Markdown('Escribe tu consulta para comenzar.', elem_id='estado')
-
     chips_state = gr.State(CHIPS_INICIALES)
 
-    with gr.Row():
+    with gr.Row(elem_id='layout-row'):
         with gr.Column(scale=0, min_width=210, elem_id='chips-col'):
             gr.HTML('<div class="chips-title">Preguntas sugeridas</div>')
             chip0 = gr.Button(CHIPS_INICIALES[0], elem_classes='chip')
@@ -402,13 +392,28 @@ with gr.Blocks(title='Chatbot UG - Admisión y Nivelación') as demo:
             chip2 = gr.Button(CHIPS_INICIALES[2], elem_classes='chip')
             chip3 = gr.Button(CHIPS_INICIALES[3], elem_classes='chip')
         with gr.Column(scale=1):
-            msg = gr.Textbox(
-                placeholder='Escribe tu pregunta sobre admisión, requisitos, fechas, costos…',
-                container=False, autofocus=True, elem_id='msg',
+            chatbot = gr.Chatbot(
+                value=[],
+                height=440,
+                layout='bubble',
+                watermark='Pregúntame sobre requisitos, fechas, carreras, costos, nivelación…',
+                avatar_images=(USER_AVATAR_PATH, BOT_AVATAR_PATH),
+                render_markdown=True,
+                sanitize_html=True,
+                line_breaks=True,
+                group_consecutive_messages=True,
+                feedback_options=('Like', 'Dislike'),
+                elem_classes='chatbot',
             )
-        with gr.Column(scale=0, min_width=140, elem_id='btn-col'):
-            enviar = gr.Button('Enviar', variant='primary', elem_id='enviar')
-            limpiar_btn = gr.Button('Limpiar conversación', variant='secondary', elem_id='limpiar')
+            estado = gr.Markdown('Escribe tu consulta para comenzar.', elem_id='estado')
+            with gr.Row(elem_id='input-row'):
+                msg = gr.Textbox(
+                    placeholder='Escribe tu pregunta sobre admisión, requisitos, fechas, costos…',
+                    container=False, autofocus=True, elem_id='msg',
+                )
+                with gr.Column(scale=0, min_width=140, elem_id='btn-col'):
+                    enviar = gr.Button('Enviar', variant='primary', elem_id='enviar')
+                    limpiar_btn = gr.Button('Limpiar conversación', variant='secondary', elem_id='limpiar')
 
     browser_state = gr.BrowserState(default_value=None, storage_key='ug_chat_hist')
 
