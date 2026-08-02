@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: chatbot-ug-admision
+    runtime: python
+    plan: free
+    branch: v2-chatbot-ug
+    autoDeploy: true
+    buildCommand: |
+      pip install -r requirements.txt
+      python -c "import nltk; nltk.download('stopwords')"
+    startCommand: python src/app.py
+    healthCheckPath: /
