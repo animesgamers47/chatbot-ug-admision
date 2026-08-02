@@ -1,0 +1,37 @@
+name: Deploy a Render
+
+on:
+  push:
+    branches: [v2-chatbot-ug]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Instalar dependencias
+        run: |
+          pip install -r requirements.txt
+          python -c "import nltk; nltk.download('stopwords')"
+
+      - name: Validar el modelo (evaluate)
+        run: |
+          out=$(python src/evaluate.py 2>&1)
+          echo "$out" | tail -25
+          echo "$out" | grep -Eq "Accuracy:\s+100\.00%" || { echo "FALLO: accuracy < 100%"; exit 1; }
+          echo "$out" | grep -q "Sin errores!" || { echo "FALLO: errores en la evaluacion"; exit 1; }
+
+      - name: Disparar deploy en Render
+        env:
+          RENDER_API_KEY: ${{ secrets.RENDER_API_KEY }}
+        run: |
+          curl -fsS -X POST "https://api.render.com/v1/services/srv-d9nnocjm8hqs73eogu1g/deploys" \
+            -H "Authorization: Bearer ${RENDER_API_KEY}" \
+            -H "Content-Type: application/json" \
+            -d '{}'
